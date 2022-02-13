@@ -33,7 +33,7 @@ namespace Profile.API.Controllers
         public async Task<ActionResult<int>> IsAlive()
         {
             _logger.LogInformation("Checking Profile API live status.");
-            string response = "Profile  API is in good health.";
+            string response = "Profile API is in good health.";
             return Ok(response);
         }
 

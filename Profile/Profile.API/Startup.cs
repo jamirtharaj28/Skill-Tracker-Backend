@@ -35,19 +35,19 @@ namespace Profile.API
                 services.AddInfrastructureServices(Configuration);
 
                 // MassTransit-RabbitMQ Configuration
-                //services.AddMassTransit(config =>
-                //{
-                //    config.UsingRabbitMq((ctx, cfg) =>
-                //    {
-                //        cfg.Host(Configuration["EventBusSettings:HostAddress"], c =>
-                //        {
-                //            c.Username(Configuration["EventBusSettings:username"]);
-                //            c.Password(Configuration["EventBusSettings:password"]);
-                //        });
-                //        cfg.UseHealthCheck(ctx);
-                //    });
-                //});
-                //services.AddMassTransitHostedService();
+                services.AddMassTransit(config =>
+                {
+                    config.UsingRabbitMq((ctx, cfg) =>
+                    {
+                        cfg.Host(Configuration["EventBusSettings:HostAddress"], c =>
+                        {
+                            c.Username(Configuration["EventBusSettings:username"]);
+                            c.Password(Configuration["EventBusSettings:password"]);
+                        });
+                        cfg.UseHealthCheck(ctx);
+                    });
+                });
+                services.AddMassTransitHostedService();
             }
             catch(Exception)
             {
