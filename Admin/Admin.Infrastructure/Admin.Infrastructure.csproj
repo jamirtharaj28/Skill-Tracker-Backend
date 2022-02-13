@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.ElastiCache" Version="3.7.3.44" />
+    <PackageReference Include="EnyimMemcachedCore" Version="2.5.3" />
+	<PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.0.88" />
+    <PackageReference Include="NEST" Version="7.15.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Application\Admin.Application.csproj" />
+  </ItemGroup>
+
+</Project>
