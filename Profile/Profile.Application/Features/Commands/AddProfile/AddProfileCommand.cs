@@ -8,7 +8,7 @@ namespace Profile.Application.Features.Commands.AddProfile
     public class AddProfileCommand : IRequest<string>
     {
         [Required(ErrorMessage="Name is required.")]
-        [MaxLength(50, ErrorMessage = "Max 50 characters allowed for Name.")]
+        [MaxLength(30, ErrorMessage = "Max 30 characters allowed for Name.")]
         public string Name { get; set; }
 
         [Required(ErrorMessage="Email is required.")]

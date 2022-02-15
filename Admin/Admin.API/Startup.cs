@@ -29,27 +29,27 @@ namespace Admin.API
             // services.AddElasticsearch(Configuration);
 
             // MassTransit-RabbitMQ Configuration
-            //services.AddMassTransit(config =>
-            //{
+            services.AddMassTransit(config =>
+            {
 
-            //    config.AddConsumer<AddProfileConsumer>();
+                config.AddConsumer<AddProfileConsumer>();
 
-            //    config.UsingRabbitMq((ctx, cfg) =>
-            //    {
-            //        cfg.Host(Configuration["EventBusSettings:HostAddress"], c =>
-            //        {
-            //            c.Username(Configuration["EventBusSettings:username"]);
-            //            c.Password(Configuration["EventBusSettings:password"]);
-            //        });
-            //        cfg.UseHealthCheck(ctx);
+                config.UsingRabbitMq((ctx, cfg) =>
+                {
+                    cfg.Host(Configuration["EventBusSettings:HostAddress"], c =>
+                    {
+                        c.Username(Configuration["EventBusSettings:username"]);
+                        c.Password(Configuration["EventBusSettings:password"]);
+                    });
+                    cfg.UseHealthCheck(ctx);
 
-            //        cfg.ReceiveEndpoint(Constants.AddProfileQueue, c =>
-            //        {
-            //            c.ConfigureConsumer<AddProfileConsumer>(ctx);
-            //        });
-            //    });
-            //});
-            //services.AddMassTransitHostedService();
+                    cfg.ReceiveEndpoint(Constants.AddProfileQueue, c =>
+                    {
+                        c.ConfigureConsumer<AddProfileConsumer>(ctx);
+                    });
+                });
+            });
+            services.AddMassTransitHostedService();
 
             services.AddCors(options =>
             {
