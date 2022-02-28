@@ -1,0 +1,29 @@
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\Admin.Domain.deps.json
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\Admin.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\ref\Admin.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\Admin.Domain.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.AssemblyInfoInputs.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.AssemblyInfo.cs
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.csproj.CoreCompileInputs.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\ref\Admin.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.csprojAssemblyReference.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\Cosmos.CRTCompat.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\Admin.Domain.deps.json
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\Admin.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\ref\Admin.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\Admin.Domain.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.csprojAssemblyReference.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.AssemblyInfoInputs.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.AssemblyInfo.cs
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.csproj.CoreCompileInputs.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\ref\Admin.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\SkillTracker.Entities.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\bin\Debug\net5.0\SkillTracker.Entities.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Admin\Admin.Domain\obj\Debug\net5.0\Admin.Domain.csproj.CopyComplete

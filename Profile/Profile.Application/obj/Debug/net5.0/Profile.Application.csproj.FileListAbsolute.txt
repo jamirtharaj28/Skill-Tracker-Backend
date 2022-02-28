@@ -1,0 +1,40 @@
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Application.deps.json
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Application.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\ref\Profile.Application.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Application.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\EventBus.Messaging.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\SkillTracker.Entities.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\EventBus.Messaging.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Domain.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\SkillTracker.Entities.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.csprojAssemblyReference.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.AssemblyInfoInputs.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.AssemblyInfo.cs
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.csproj.CoreCompileInputs.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.csproj.CopyComplete
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\ref\Profile.Application.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Cosmos.CRTCompat.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Application.deps.json
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Application.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\ref\Profile.Application.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Application.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\EventBus.Messaging.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\SkillTracker.Entities.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\EventBus.Messaging.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\Profile.Domain.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\bin\Debug\net5.0\SkillTracker.Entities.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.csprojAssemblyReference.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.AssemblyInfoInputs.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.AssemblyInfo.cs
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.csproj.CoreCompileInputs.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.csproj.CopyComplete
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\ref\Profile.Application.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Application\obj\Debug\net5.0\Profile.Application.pdb

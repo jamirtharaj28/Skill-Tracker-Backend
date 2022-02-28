@@ -1,0 +1,32 @@
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\Profile.Domain.deps.json
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\Profile.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\ref\Profile.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\Profile.Domain.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\SkillTracker.Entities.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\SkillTracker.Entities.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.csprojAssemblyReference.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.AssemblyInfoInputs.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.AssemblyInfo.cs
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.csproj.CoreCompileInputs.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.csproj.CopyComplete
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\ref\Profile.Domain.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\Cosmos.CRTCompat.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\Profile.Domain.deps.json
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\Profile.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\ref\Profile.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\Profile.Domain.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\SkillTracker.Entities.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\bin\Debug\net5.0\SkillTracker.Entities.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.csprojAssemblyReference.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.AssemblyInfoInputs.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.AssemblyInfo.cs
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.csproj.CoreCompileInputs.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.csproj.CopyComplete
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\ref\Profile.Domain.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Profile\Profile.Domain\obj\Debug\net5.0\Profile.Domain.pdb

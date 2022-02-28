@@ -1,0 +1,26 @@
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\SkillTracker.Entities.deps.json
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\SkillTracker.Entities.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\ref\SkillTracker.Entities.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\SkillTracker.Entities.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.AssemblyInfoInputs.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.AssemblyInfo.cs
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.csproj.CoreCompileInputs.cache
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\ref\SkillTracker.Entities.dll
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.pdb
+C:\Users\saikrishna385\Downloads\SkillTracker-Backend-master\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.csprojAssemblyReference.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\Cosmos.CRTCompat.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\SkillTracker.Entities.deps.json
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\SkillTracker.Entities.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\ref\SkillTracker.Entities.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\bin\Debug\net5.0\SkillTracker.Entities.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.AssemblyInfoInputs.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.AssemblyInfo.cs
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.csproj.CoreCompileInputs.cache
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\ref\SkillTracker.Entities.dll
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.pdb
+F:\Learning\ASP.NET Core\SkillTracker-Backend-master\Common\SkillTracker.Entities\obj\Debug\net5.0\SkillTracker.Entities.csprojAssemblyReference.cache
