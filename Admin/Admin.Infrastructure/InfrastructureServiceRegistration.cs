@@ -18,7 +18,7 @@ namespace Admin.Infrastructure
     public static class InfrastructureServiceRegistration
     { 
         private static readonly string EndpointUri = "https://skilltracker.documents.azure.com:443/";
-        // The primary key for the Azure Cosmos account.
+        // The primary key for the Azure Cosmos account...
         private static readonly string PrimaryKey = "aal67Ry0PBjpcihpXSkOqSoetqKglmyNpxxhRmb3z1v7CebJD5AwFnRjiH8M36mK4TOvirCB2MPIk2JY7unsKg==";
         private static readonly string ConnectionString = "AccountEndpoint=https://skilltracker.documents.azure.com:443/;AccountKey=aal67Ry0PBjpcihpXSkOqSoetqKglmyNpxxhRmb3z1v7CebJD5AwFnRjiH8M36mK4TOvirCB2MPIk2JY7unsKg==;";
 
