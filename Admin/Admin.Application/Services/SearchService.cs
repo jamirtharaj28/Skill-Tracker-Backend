@@ -15,8 +15,7 @@ namespace Admin.Application.Services
 {
     public class SearchService : ISearchService
     {
-        private readonly IPersonalInfoProvider _personalInfoProvider;
-        private readonly ISkillProvider _skillProvider;
+        private readonly IProfileRepository _profileRepository;
         private readonly ICacheProvider _cacheProvider;
         private readonly ICacheRepository _cacheRepo;
         private readonly AutoMapper.IMapper _mapper;
@@ -27,19 +26,17 @@ namespace Admin.Application.Services
         public SearchService(
             ICacheProvider cacheProvider,
             ICacheRepository cacheRepo,
-            ISkillProvider skillProvider,
-            IPersonalInfoProvider personalInfoProvider,
             AutoMapper.IMapper mapper,
             ILogger<SearchService> logger,
-            IConfiguration configuration
+            IConfiguration configuration,
+            IProfileRepository profileRepository
         )
         {
             _cacheProvider = cacheProvider;
             _cacheRepo = cacheRepo;
-            _skillProvider = skillProvider;
-            _personalInfoProvider = personalInfoProvider;
             _mapper = mapper;
             _logger = logger;
+            _profileRepository = profileRepository;
 
             bool.TryParse(configuration["CacheEnabled"], out _cacheEnabled);
         }
@@ -74,58 +71,41 @@ namespace Admin.Application.Services
             {
                 return cachedData;
             }
-            var personalInfo = await _personalInfoProvider.SearchByEmpIdAsync(empId);
-            if (personalInfo != null)
-            {
-                var profile = await GetProfile(personalInfo);
-                if (profile != null)
-                {
-                    await SetToCache(empId, profile);
-                    return profile;
-                }
-            }
 
+            var profile = _mapper.Map<Profile>(await _profileRepository.SearchByEmpIdAsync(empId));
+            
+            if (profile != null)
+            {
+                await SetToCache(empId, profile);
+                return profile;
+            }
             return null;
         }
         private async Task<IEnumerable<Profile>> SearchByName(string name)
         {
-            ConcurrentBag<Profile> profiles = new ConcurrentBag<Profile>();
 
-            var empIdList = await _personalInfoProvider.GetEmployeeIdsByname(name);
+            var profileData = await _profileRepository.GetProfilesByname(name);
 
-            var tasks = empIdList.Select(async id =>
+            List<Profile> profiles = new List<Profile>();
+            foreach (var profile in profileData)
             {
-                var profile = await SearchById(id);
-                profiles.Add(profile);
-            });
-            await Task.WhenAll(tasks);
+                profiles.Add(_mapper.Map<Profile>(profile));
+            }
 
             return profiles;
         }
 
         private async Task<IEnumerable<Profile>> SearchBySkillName(string skillName)
         {
-            ConcurrentBag<Profile> profiles = new ConcurrentBag<Profile>();
+            var profileData = await _profileRepository.SearchBySkillName(skillName);
 
-            var empIdList = await _skillProvider.SearchForKeyAsync(skillName);
-
-            var tasks = empIdList.Select(async id =>
+            List<Profile> profiles = new List<Profile>();
+            foreach (var profile in profileData)
             {
-                var profile = await SearchById(id);
-                profiles.Add(profile);
-            });
-            await Task.WhenAll(tasks);
+                profiles.Add(_mapper.Map<Profile>(profile));
+            }
 
             return profiles;
-        }
-
-
-        private async Task<Profile> GetProfile(PersonalInfoEntity personalInfo)
-        {
-            var skills = await _skillProvider.GetAsync(personalInfo.EmpId);
-            var profile = _mapper.Map<Profile>(personalInfo);
-            profile.Skills = skills.Select(s => _mapper.Map<Skill>(s)).ToList();
-            return profile;
         }
 
         private Profile GetFromCache(string key)

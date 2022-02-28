@@ -34,7 +34,7 @@ namespace Admin.API.Controllers
         }
         
         [HttpPost("search",Name ="Search")]
-        public async Task<ActionResult<List<Profile>>> Search(SearchProfileQuery query)
+        public async Task<ActionResult<List<Admin.Domain.Models.Profile>>> Search(SearchProfileQuery query)
         {
             var result = await _mediator.Send(query);
             return Ok(result);

@@ -8,6 +8,8 @@ namespace Profile.Application.Contracts
     {
         Task<T> AddAsync(T entity);
 
+        Task<T> UpdateAsync(T entity);
+
         Task<IList<T>> AddRangeAsync(IList<T> entities);
 
         //Task UpdateAsync(T entity);

@@ -13,19 +13,35 @@ namespace Profile.Infrastructure.Repositories
 {
     public class ProfileRepository : IProfileRepository
     {
-        private readonly AmazonDynamoDBClient _client;
-        private readonly DynamoDBContext _dbcontext;
-        private readonly string tableName = "st-profile_repository";
+        private readonly SkillTrackerContext _context;
 
-        public ProfileRepository(DynamoDBContext dbcontext, AmazonDynamoDBClient client)
+        public ProfileRepository(SkillTrackerContext dbcontext)
         {
-            this._dbcontext = dbcontext;
-            this._client = client;
+            this._context = dbcontext;
         }
 
-        public Task<ProfileEntity> AddAsync(ProfileEntity entity)
+        public async Task<ProfileEntity> AddAsync(ProfileEntity entity)
         {
-            throw new NotImplementedException();
+            await this._context.Profile.AddAsync(entity);
+            await this._context.SaveChangesAsync();
+            return entity;
+        }
+
+        public async Task<ProfileEntity> UpdateAsync(ProfileEntity entity)
+        {
+            ProfileEntity existingProfile = this._context.Profile.FirstOrDefault(s => s.EmpId == entity.EmpId);
+           
+            foreach (var skill in entity.skills)
+            {
+                var exSkill = existingProfile.skills.FirstOrDefault(s=>s.Name.Equals(skill.Name,StringComparison.OrdinalIgnoreCase));
+                exSkill.Proficiency = skill.Proficiency;
+            }
+            existingProfile.LastModifiedDate = DateTime.Now;
+            
+            this._context.Update(existingProfile);
+            await this._context.SaveChangesAsync();
+            
+            return entity;
         }
 
         public Task<IList<ProfileEntity>> AddRangeAsync(IList<ProfileEntity> entities)
@@ -45,16 +61,12 @@ namespace Profile.Infrastructure.Repositories
 
         public async Task<ProfileEntity> GetTime(string hadhKey)
         {
-            var table = Table.LoadTable(_client, tableName);
-            var doc = await table.GetItemAsync(hadhKey);
-            return _dbcontext.FromDocument<ProfileEntity>(doc);
+            throw new NotImplementedException();
         }
 
         public async Task PutItem(ProfileEntity entity)
         {
-            var table = Table.LoadTable(_client, tableName);
-            var doc = _dbcontext.ToDocument(entity);
-            await table.PutItemAsync(doc);
+            throw new NotImplementedException();
         }
 
     }

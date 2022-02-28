@@ -15,7 +15,7 @@ namespace Profile.API
         public static void Main(string[] args)
         {
             IHost host = CreateHostBuilder(args).Build();
-            HostExtension.SetupDatabase(host.Services).GetAwaiter();
+            //HostExtension.SetupDatabase(host.Services).GetAwaiter();
             host.Run();
         }
 

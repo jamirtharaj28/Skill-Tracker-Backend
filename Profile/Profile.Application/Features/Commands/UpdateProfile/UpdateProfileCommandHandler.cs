@@ -15,35 +15,26 @@ namespace Profile.Application.Features.Commands.UpdateProfile
 {
     public class UpdateProfileCommandHandler : IRequestHandler<UpdateProfileCommand, string>
     {
-        private readonly ISkillRepository _skillRepository;
+        private readonly IProfileRepository _profileRepository;
         private readonly IMapper _mapper;
         private readonly ILogger<UpdateProfileCommandHandler> _logger;
 
-        public UpdateProfileCommandHandler(ISkillRepository skillRepo, IMapper mapper, ILogger<UpdateProfileCommandHandler> logger)
+        public UpdateProfileCommandHandler( IMapper mapper, ILogger<UpdateProfileCommandHandler> logger, IProfileRepository profileRepository)
         {
             _mapper = mapper;
             _logger = logger;
-            _skillRepository = skillRepo;
+            _profileRepository = profileRepository;
         }
 
 
         public async Task<string> Handle(UpdateProfileCommand request, CancellationToken cancellationToken)
         {
-            var existingSkills = await _skillRepository.GetItems(request.EmpId);
-
-            List<Task> tasks = new List<Task>();
-
-            existingSkills.ForEach(s =>
+            ProfileEntity profileInfo = new ProfileEntity
             {
-                tasks.Add(_skillRepository.DeleteAsync(s.EmpId, s.SkillId));
-            });
-
-            Task.WaitAll(tasks.ToArray());
-
-            var skillentitiess = request.Skills.Select(s => _mapper.Map<SkillEntity>(s)).ToList();
-            skillentitiess.ForEach(s => s.EmpId = request.EmpId);
-
-            await _skillRepository.AddRangeAsync(skillentitiess);
+                EmpId = request.EmpId,
+                skills = request.Skills
+            };
+            await _profileRepository.UpdateAsync(profileInfo);
 
             _logger.LogInformation($"Profile {request.EmpId} is successfully updated.");
 

@@ -4,8 +4,8 @@ namespace Profile.Domain.Entities
 {
     public class Skill
     {
-        [Required(ErrorMessage = "Skill Id is required")]
-        public int SkillId { get; set; }
+        //[Required(ErrorMessage = "Skill Id is required")]
+        //public int SkillId { get; set; }
 
         public bool IsTechnical { get; set; }
 

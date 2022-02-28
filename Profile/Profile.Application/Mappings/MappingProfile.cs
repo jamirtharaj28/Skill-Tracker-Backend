@@ -11,6 +11,7 @@ namespace Profile.Application.Mappings
         {
             CreateMap<PersonalInfoEntity, AddProfileCommand>().ReverseMap(); 
             CreateMap<AddProfileEvent, AddProfileCommand>().ReverseMap();
+            CreateMap<ProfileEntity, AddProfileCommand>().ReverseMap();
             CreateMap<SkillEntity, Skill>().ReverseMap();
         }
     }
